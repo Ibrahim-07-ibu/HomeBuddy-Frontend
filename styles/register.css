@@ -1,4 +1,3 @@
-/* HomeBuddy User Registration Styles */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +13,6 @@ body {
     flex-direction: column;
 }
 
-/* Navbar */
 .navbar {
     background-color: #5A6D7A;
     padding: 1rem 2rem;
@@ -54,7 +52,6 @@ body {
     background-color: rgba(255,255,255,0.2);
 }
 
-/* Register Container */
 .register-container {
     flex: 1;
     display: flex;
@@ -83,7 +80,6 @@ body {
     margin-bottom: 2rem;
 }
 
-/* Form Styles */
 .register-form {
     display: flex;
     flex-direction: column;
@@ -145,7 +141,6 @@ body {
     text-decoration: underline;
 }
 
-/* Button */
 .btn-primary {
     background-color: #2E3944;
     color: white;
@@ -179,7 +174,6 @@ body {
     text-decoration: underline;
 }
 
-/* Footer */
 .footer {
     background-color: #5A6D7A;
     color: white;
@@ -187,7 +181,6 @@ body {
     padding: 1rem;
 }
 
-/* Responsive */
 @media (max-width: 480px) {
     .register-card {
         padding: 2rem;

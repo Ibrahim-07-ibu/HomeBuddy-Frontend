@@ -1,4 +1,3 @@
-/* HomeBuddy User Login Styles */
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +13,6 @@ body {
     flex-direction: column;
 }
 
-/* Navbar */
 .navbar {
     background-color: #5A6D7A;
     padding: 1rem 2rem;
@@ -54,7 +52,6 @@ body {
     background-color: rgba(255,255,255,0.2);
 }
 
-/* Login Container */
 .login-container {
     flex: 1;
     display: flex;
@@ -83,7 +80,6 @@ body {
     margin-bottom: 2rem;
 }
 
-/* Form Styles */
 .login-form {
     display: flex;
     flex-direction: column;
@@ -143,7 +139,6 @@ body {
     color: #FF6B35;
 }
 
-/* Button */
 .btn-primary {
     background-color: #2E3944;
     color: white;
@@ -177,7 +172,6 @@ body {
     text-decoration: underline;
 }
 
-/* Footer */
 .footer {
     background-color: #5A6D7A;
     color: white;
@@ -185,7 +179,6 @@ body {
     padding: 1rem;
 }
 
-/* Responsive */
 @media (max-width: 480px) {
     .login-card {
         padding: 2rem;

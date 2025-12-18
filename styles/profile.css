@@ -13,7 +13,6 @@ body {
     flex-direction: column;
 }
 
-/* Navbar */
 .navbar {
     background-color: #5A6D7A;
     padding: 1rem 2rem;
@@ -62,7 +61,6 @@ body {
     background-color: #e55a2b !important;
 }
 
-/* Profile Container */
 .profile-container {
     flex: 1;
     max-width: 700px;
@@ -78,7 +76,6 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-/* Profile Header */
 .profile-header {
     display: flex;
     align-items: center;
@@ -105,7 +102,6 @@ body {
     color: #5A6D7A;
 }
 
-/* Form */
 .profile-form {
     display: flex;
     flex-direction: column;
@@ -142,7 +138,6 @@ body {
     border-color: #5A6D7A;
 }
 
-/* Actions */
 .form-actions {
     display: flex;
     justify-content: flex-end;
@@ -173,7 +168,6 @@ body {
     cursor: pointer;
 }
 
-/* Footer */
 .footer {
     background-color: #5A6D7A;
     color: white;
@@ -182,7 +176,6 @@ body {
     margin-top: auto;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .nav-links {
         gap: 0.75rem;

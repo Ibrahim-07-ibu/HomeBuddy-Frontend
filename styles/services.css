@@ -13,7 +13,6 @@ body {
     flex-direction: column;
 }
 
-/* Navbar */
 .navbar {
     background-color: #5A6D7A;
     padding: 1rem 2rem;
@@ -62,7 +61,6 @@ body {
     background-color: #e55a2b !important;
 }
 
-/* Services Container */
 .services-container {
     flex: 1;
     max-width: 1200px;
@@ -71,7 +69,6 @@ body {
     width: 100%;
 }
 
-/* Page Header */
 .page-header {
     text-align: center;
     margin-bottom: 2.5rem;
@@ -88,7 +85,6 @@ body {
     font-size: 1.1rem;
 }
 
-/* Services Grid */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -152,7 +148,6 @@ body {
     transform: translateY(-2px);
 }
 
-/* Footer */
 .footer {
     background-color: #5A6D7A;
     color: white;
@@ -161,7 +156,6 @@ body {
     margin-top: auto;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .nav-links {
         gap: 0.75rem;

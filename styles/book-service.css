@@ -13,7 +13,6 @@ body {
     flex-direction: column;
 }
 
-/* Navbar */
 .navbar {
     background-color: #5A6D7A;
     padding: 1rem 2rem;
@@ -62,7 +61,6 @@ body {
     background-color: #e55a2b !important;
 }
 
-/* Booking Container */
 .booking-container {
     flex: 1;
     max-width: 700px;
@@ -78,7 +76,6 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-/* Booking Header */
 .booking-header {
     margin-bottom: 2rem;
 }
@@ -106,7 +103,6 @@ body {
     color: #5A6D7A;
 }
 
-/* Service Selected */
 .service-selected {
     display: flex;
     align-items: center;
@@ -132,7 +128,6 @@ body {
     font-weight: 600;
 }
 
-/* Form Sections */
 .form-section {
     margin-bottom: 2rem;
 }
@@ -145,7 +140,6 @@ body {
     border-bottom: 1px solid #C9D6DF;
 }
 
-/* Form Styles */
 .booking-form {
     display: flex;
     flex-direction: column;
@@ -194,7 +188,6 @@ body {
     min-height: 100px;
 }
 
-/* Form Actions */
 .form-actions {
     display: flex;
     gap: 1rem;
@@ -238,7 +231,6 @@ body {
     color: #2A2E35;
 }
 
-/* Footer */
 .footer {
     background-color: #5A6D7A;
     color: white;
@@ -247,7 +239,6 @@ body {
     margin-top: auto;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
     .form-row {
         grid-template-columns: 1fr;

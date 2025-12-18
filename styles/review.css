@@ -13,7 +13,6 @@ body {
     flex-direction: column;
 }
 
-/* Navbar */
 .navbar {
     background-color: #5A6D7A;
     padding: 1rem 2rem;
@@ -61,7 +60,6 @@ body {
     background-color: #e55a2b !important;
 }
 
-/* Review Wrapper */
 .review-wrapper {
     flex: 1;
     max-width: 700px;
@@ -69,7 +67,6 @@ body {
     padding: 0 1rem;
 }
 
-/* Page Header */
 .page-header {
     margin-bottom: 2rem;
 }
@@ -84,7 +81,6 @@ body {
     color: #5A6D7A;
 }
 
-/* Review Card */
 .review-card {
     background-color: white;
     padding: 2rem;
@@ -95,7 +91,6 @@ body {
     gap: 1.5rem;
 }
 
-/* Provider Info */
 .provider-info {
     background-color: #F5F7FA;
     padding: 1rem;
@@ -111,7 +106,6 @@ body {
     color: #FF6B35;
 }
 
-/* Form */
 .review-form label {
     display: block;
     margin-bottom: 0.5rem;
@@ -128,7 +122,6 @@ body {
     resize: vertical;
 }
 
-/* Rating Stars */
 .rating-stars {
     display: flex;
     gap: 0.25rem;
@@ -153,7 +146,6 @@ body {
     color: #FFB400;
 }
 
-/* Submit Button */
 .btn-submit {
     background-color: #28a745;
     color: white;
