@@ -54,7 +54,7 @@ body {
 }
 
 .btn-logout {
-    background-color: #FF6B35 !important;
+    background-color: #FF6B35 ;
 }
 
 .btn-logout:hover {
@@ -157,11 +157,53 @@ body {
 }
 
 @media (max-width: 768px) {
-    .nav-links {
-        gap: 0.75rem;
+
+    .nav-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
     }
-    
+
+    .logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-links {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .nav-links a {
+        flex: 1 1 45%;
+        text-align: center;
+        padding: 0.75rem 0;
+        font-size: 0.95rem;
+    }
+
+    .btn-logout {
+        flex: 1 1 100%;
+    }
+
+    .services-container {
+        padding: 1.5rem 1rem;
+    }
+
+    .page-header h1 {
+        font-size: 1.75rem;
+    }
+
+    .page-header p {
+        font-size: 1rem;
+    }
+
     .services-grid {
         grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 1.5rem;
     }
 }

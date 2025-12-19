@@ -57,7 +57,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 1rem;
 }
 
 .register-card {
@@ -65,14 +65,13 @@ body {
     border-radius: 12px;
     padding: 3rem;
     width: 100%;
-    max-width: 520px;
+    max-width: 550px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 .register-card h1 {
-    color: #2A2E35;
-    margin-bottom: 0.5rem;
     font-size: 1.75rem;
+    margin-bottom: 0.5rem;
 }
 
 .subtitle {
@@ -83,7 +82,7 @@ body {
 .register-form {
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 1rem;
 }
 
 .form-row {
@@ -95,15 +94,15 @@ body {
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
 }
 
 .form-group label {
     font-weight: 500;
-    color: #2A2E35;
+    margin-bottom: 0.25rem;
 }
 
 .form-group input {
+    width: 100%;
     padding: 0.875rem 1rem;
     border: 1px solid #C9D6DF;
     border-radius: 8px;
@@ -119,9 +118,7 @@ body {
 
 .terms-checkbox {
     display: flex;
-    align-items: flex-start;
     gap: 0.75rem;
-    cursor: pointer;
     font-size: 0.875rem;
     color: #5A6D7A;
 }
@@ -166,8 +163,8 @@ body {
 
 .login-link a {
     color: #FF6B35;
-    text-decoration: none;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .login-link a:hover {
@@ -181,12 +178,38 @@ body {
     padding: 1rem;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+
+    .nav-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .nav-links a {
+        flex: 1 1 45%;
+        text-align: center;
+        font-size: 0.95rem;
+    }
+
+
     .register-card {
         padding: 2rem;
     }
-    
-    .form-row {
-        grid-template-columns: 1fr;
+
+    .register-card h1 {
+        font-size: 1.5rem;
     }
 }
+

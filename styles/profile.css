@@ -16,7 +16,7 @@ body {
 .navbar {
     background-color: #5A6D7A;
     padding: 1rem 2rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-container {
@@ -50,11 +50,11 @@ body {
 
 .nav-links a:hover,
 .nav-links a.active {
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .btn-logout {
-    background-color: #FF6B35 !important;
+    background-color: #FF6B35;
 }
 
 .btn-logout:hover {
@@ -65,7 +65,7 @@ body {
     flex: 1;
     max-width: 700px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 2rem 1rem;
     width: 100%;
 }
 
@@ -73,7 +73,7 @@ body {
     background-color: white;
     border-radius: 12px;
     padding: 2rem;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .profile-header {
@@ -126,6 +126,7 @@ body {
 
 .form-group input,
 .form-group textarea {
+    width: 100%;
     padding: 0.875rem 1rem;
     border: 1px solid #C9D6DF;
     border-radius: 8px;
@@ -176,16 +177,86 @@ body {
     margin-top: auto;
 }
 
+/* ===================== */
+/* RESPONSIVE */
+/* ===================== */
+
 @media (max-width: 768px) {
-    .nav-links {
-        gap: 0.75rem;
+
+    .nav-container {
+        flex-direction: column;
+        gap: 1rem;
     }
-    
-    .quick-actions {
+
+    .nav-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .nav-links a {
+        flex: 1 1 45%;
+        text-align: center;
+        font-size: 0.95rem;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-avatar {
+        width: 70px;
+        height: 70px;
+        font-size: 2rem;
+    }
+
+    .form-row {
         grid-template-columns: 1fr;
     }
-    
-    .activity-item {
-        flex-wrap: wrap;
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+    }
+
+
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-avatar {
+        width: 70px;
+        height: 70px;
+        font-size: 2rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
     }
 }
