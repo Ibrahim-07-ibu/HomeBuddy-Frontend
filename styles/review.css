@@ -160,7 +160,6 @@ body {
     background-color: #218838;
 }
 
-/* Footer */
 .footer {
     background-color: #5A6D7A;
     color: white;
@@ -170,7 +169,6 @@ body {
 }
 @media (max-width: 768px) {
 
-    /* NAVBAR */
     .navbar-container {
         flex-direction: column;
         align-items: stretch;
@@ -200,7 +198,6 @@ body {
         flex: 1 1 100%;
     }
 
-    /* REVIEW PAGE */
     .review-wrapper {
         margin: 1.5rem auto;
         padding: 0 1rem;

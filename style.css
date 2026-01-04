@@ -199,7 +199,6 @@ body {
     color: #004085;
 }
 
-/* Footer */
 .footer {
     background-color: #5A6D7A;
     color: white;
@@ -207,24 +206,19 @@ body {
     padding: 1rem;
     margin-top: auto;
 }
-
-/* Responsive */
 @media (max-width: 768px) {
 
-    /* Navbar container stacks */
     .nav-container {
         flex-direction: column;
         align-items: stretch;
         gap: 1rem;
     }
 
-    /* Logo centered */
     .logo {
         text-align: center;
         width: 100%;
     }
 
-    /* Nav buttons wrap */
     .nav-links {
         width: 100%;
         flex-wrap: wrap;
@@ -232,7 +226,6 @@ body {
         gap: 0.5rem;
     }
 
-    /* Each button touch-friendly */
     .nav-links a {
         flex: 1 1 45%;
         text-align: center;
@@ -240,7 +233,6 @@ body {
         font-size: 0.95rem;
     }
 
-    /* Logout stands out */
     .btn-logout {
         flex: 1 1 100%;
     }
